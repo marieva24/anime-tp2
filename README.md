@@ -1,2 +1,2 @@
-# anime-tp2
- Anime app TP2 
+# anime-app-tp2
+ Aplicacion Animania
