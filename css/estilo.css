@@ -117,15 +117,16 @@ button:hover{
 footer {
     background-color: var(--azul);
 }
-body:not(.offline) .offline-banner {
-    height: 24px;
-    margin-top: -24px;
-    transition: all 0.5s;
-}
-
 body.offline .offline-banner {
     transition: all 0.5s;
-    margin: 0;
+}
+body:not(.offline) .offline-banner {
+    height: 32px;
+    margin-top: -38px;
+    transition: all 0.5s;
+}
+.offline-banner{
+    width:100%;
 }
 .btn-rss {
     background-size: 100%;
