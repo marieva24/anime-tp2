@@ -33,7 +33,7 @@ function buscar(evento){
                         <img src="${anime.image_url}" class="card-img-top img-fluid" alt="anime">    
                         <h5 class="card-title mt-3">${anime.title}</h5>
                         <p class="card-text">${anime.synopsis}</p>
-                        <p><span class="text">Score: </span>${anime.score}</p>
+                        <p class="score">Score:${anime.score}</p>
                         <a href="${anime.url}" class="btn btn-primary bg2" target="_blank">Link a la página</a>
             </section>
             `
