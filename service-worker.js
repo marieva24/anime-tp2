@@ -4,7 +4,6 @@ const cacheName = 'cache-version-1';
 // Archivos/Recursos que vamos a "cachear"
 const precache = [
   './favicon.ico',
-  './favicon.ico',
   './manifest.webmanifest',
   './index.html',
   './anime.html',
