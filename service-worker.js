@@ -3,7 +3,9 @@ const cacheName = 'cache-version-1';
 
 // Archivos/Recursos que vamos a "cachear"
 const precache = [
-  './js/register-sw.js',
+  './favicon.ico',
+  './favicon.ico',
+  './manifest.webmanifest',
   './index.html',
   './anime.html',
   './offline.html',
@@ -13,6 +15,7 @@ const precache = [
   './js/jquery.slim.min.js',
   './js/animania.js',
   './js/bootstrap.bundle.min.js',
+  './js/bootstrap.bundle.min.js.map',
   './res/img/icon/youtube.svg',
   './res/img/icon/facebook.svg',
   './res/img/icon/instagram.svg',
